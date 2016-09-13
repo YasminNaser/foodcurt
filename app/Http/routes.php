@@ -21,5 +21,5 @@ Route::controllers([
 ]);
 
 Route::get('contact','WelcomeController@contact');
-Route::get('restaurants','RestaurantsController@index');
-Route::resource('restaurants','RestaurantsController');
+Route::get('res','RestaurantsController@index');
+// Route::resource('restaurants','RestaurantsController');
